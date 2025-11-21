@@ -89,8 +89,8 @@ def main():
         
         # Сохранение данных в Excel
         filename = 'анимационные_фильмы_2025.xlsx'
-        df.to_excel('outputs/filename', index=False, engine='openpyxl')
-        
+        df.to_excel('outputs/animated_movies_2025.xlsx', index=False, engine='openpyxl')
+              
         # Полный путь к файлу
         file_path = os.path.abspath(filename)
         
@@ -118,4 +118,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
